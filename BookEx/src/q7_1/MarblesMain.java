@@ -19,7 +19,7 @@ class ChildProperty {
 			return retValue;
 		}
 
-		numOfBead = loseCount;
+		numOfBead -= loseCount; // 답이 이상해서 확인하니 연산자를 빼먹어서 추가함.
 		return loseCount;
 	}
 
